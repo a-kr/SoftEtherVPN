@@ -67,6 +67,10 @@ To stop the service, run the following:
 
 $ bin/vpnserver/vpnserver stop
 
+To run in foreground, with extended logging:
+
+$ bin/vpnserver/vpnserver debug
+
 To configure the running SoftEther VPN Server service,
 you can use SoftEther VPN Command Line Management Utility as following:
 

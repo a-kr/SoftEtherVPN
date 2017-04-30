@@ -702,6 +702,12 @@ void FreeMayaqua()
 	OSFree();
 }
 
+// Set global debug flag
+void SetDebug(bool debug)
+{
+	g_debug = debug;
+}
+
 // Check whether /tmp is available in the UNIX
 void CheckUnixTempDir()
 {

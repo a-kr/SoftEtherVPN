@@ -552,6 +552,7 @@ if (kernel_status_inited) {					\
 // Function prototype
 void InitMayaqua(bool memcheck, bool debug, int argc, char **argv);
 void FreeMayaqua();
+void SetDebug(bool debug);
 bool IsNt();
 bool IsUnicode();
 void MayaquaDotNetMode();

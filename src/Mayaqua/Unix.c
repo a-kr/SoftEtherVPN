@@ -2824,6 +2824,11 @@ void UnixServiceMain(int argc, char *argv[], char *name, SERVICE_FUNCTION *start
 		{
 			mode = UNIX_SVC_MODE_EXEC_SVC;
 		}
+		if (StrCmpi(argv[1], UNIX_SVC_ARG_DEBUG) == 0)
+		{
+			mode = UNIX_SVC_MODE_EXEC_SVC;
+			SetDebug(true);
+		}
 		if (StrCmpi(argv[1], UNIX_ARG_EXIT) == 0)
 		{
 			mode = UNIX_SVC_MODE_EXIT;

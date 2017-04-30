@@ -140,6 +140,7 @@ typedef void (SERVICE_FUNCTION)();
 #define	UNIX_SVC_ARG_START				"start"
 #define	UNIX_SVC_ARG_STOP				"stop"
 #define	UNIX_SVC_ARG_EXEC_SVC			"execsvc"
+#define	UNIX_SVC_ARG_DEBUG			"debug"
 #define	UNIX_ARG_EXIT					"exit"
 
 #define	UNIX_SVC_MODE_START				1
